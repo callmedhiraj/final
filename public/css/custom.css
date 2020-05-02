@@ -1,0 +1,136 @@
+.app-header.navbar .navbar-brand{
+	background-size: 138px auto;
+}
+ul.nav li ul{margin-left:30px !important;}
+.sidebar .nav-link.active, .sidebar .navbar .active.dropdown-toggle, .navbar .sidebar .active.dropdown-toggle{
+    /*background: #212b32;*/
+}
+.membership-options{
+    display:none;
+}
+
+.hide{display: none;}
+
+#placeOrderModal .modal-dialog{
+    max-width: 90% !important;
+}
+
+.modal-footer{
+    justify-content: space-between;
+}
+
+.addplusitem{
+    height:128px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.pPT .addplusitem a p {
+    margin-bottom: 0px;
+}
+.pPT .addplusitem a p {
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    white-space: nowrap;
+}
+
+.error{
+    color: red;
+}
+
+.wizard{
+    margin: 10px -15px;
+}
+.wizard a {
+    padding: 20px 12px 20px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    min-width: 19.50%;
+    margin-left: 0.25%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    background: #0094da;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.wizard a:hover {
+    text-decoration: none;
+}
+
+.wizard a:first-child {
+    margin-left: 0;
+}
+
+.wizard:not(.left-arrow) a:before {
+    width: 0;
+    height: 0;
+    border-top: 30px inset transparent;
+    border-bottom: 30px inset transparent;
+    border-left: 30px solid #FFFFFF;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+}
+
+.wizard:not(.left-arrow) a:after {
+    width: 0;
+    height: 0;
+    border-top: 30px inset transparent;
+    border-bottom: 30px inset transparent;
+    border-left: 30px solid #0094da;
+    position: absolute;
+    content: "";
+    top: 0;
+    right: -30px;
+    z-index: 2;
+}
+
+.wizard a:first-child:before,
+.wizard a:last-child:after {
+    border: none;
+}
+
+.wizard a.active{
+    background: #f86c6b;
+}
+.wizard:not(.left-arrow) a.active:after {
+    border-left: 30px solid #f86c6b;
+}
+.imgs{
+    width: 120px;
+    height: 70px;
+}
+
+/*dropzone*/
+
+.button {
+    display: none;
+}
+
+img:hover + .button {
+    display: block;
+}
+
+.img-holder {
+    position: relative;
+    margin-bottom:2%;
+}
+
+.button {
+    position: absolute;
+    top: 2px;
+    right:25%;
+    background-color: white;
+    color: black;
+    animation: fadein .4s;
+}
+
+a {
+    text-decoration: none;
+}
